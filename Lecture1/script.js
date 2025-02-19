@@ -8,4 +8,7 @@ var arr = [1,2,3,4];
 
 arr.forEach(function(val){
     console.log(val + "helo");
-})
+}) //for every array function , adding hello string 
+
+//mapping function for array ; making one more array in comparison of previous array 
+
