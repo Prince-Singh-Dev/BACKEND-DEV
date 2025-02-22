@@ -1,0 +1,19 @@
+{
+  "name": "backend-dev",
+  "version": "1.0.0",
+  "description": "Here's a basic description you can use for your GitHub repository:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince-Singh-Dev/BACKEND-DEV.git"
+  },
+  "author": "Prince Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prince-Singh-Dev/BACKEND-DEV/issues"
+  },
+  "homepage": "https://github.com/Prince-Singh-Dev/BACKEND-DEV#readme"
+}
