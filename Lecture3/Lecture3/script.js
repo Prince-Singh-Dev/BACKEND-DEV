@@ -21,6 +21,3 @@
 
 // Installing any specific version of Package via NPM 
 // Syntax : npm i accessibility@3.8.9
-
-// Dependencies --> packages and dependencies of packages
-// DevDependencies --> packages used in the development phase , once the application is ready , we are not going to use these packages 
