@@ -4,6 +4,8 @@
   "description": "Here's a basic description you can use for your GitHub repository:",
   "main": "index.js",
   "scripts": {
+    "start": "node script.js",
+    "chacha": "echo \"\u001b[36mRunning tests...\u001b[39m\" && node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Prince-Singh-Dev/BACKEND-DEV/issues"
   },
-  "homepage": "https://github.com/Prince-Singh-Dev/BACKEND-DEV#readme"
+  "homepage": "https://github.com/Prince-Singh-Dev/BACKEND-DEV#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }

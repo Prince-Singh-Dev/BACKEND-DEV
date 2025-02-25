@@ -24,3 +24,5 @@
 
 // Dependencies --> packages and dependencies of packages
 // DevDependencies --> packages used in the development phase , once the application is ready , we are not going to use these packages 
+
+console.log("hello");
