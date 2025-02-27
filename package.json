@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Prince-Singh-Dev/BACKEND-DEV#readme",
   "dependencies": {
-    "chalk": "^5.4.1"
+    "chalk": "^5.4.1",
+    "express": "^4.21.2"
   }
 }
