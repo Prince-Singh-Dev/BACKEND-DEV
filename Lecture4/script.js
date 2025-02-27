@@ -42,4 +42,6 @@ app.get("/profile",function(req,res){
 app.listen(3000);
 
 
-// Middleware 
+// Middleware : The request that we send to facebook for photo , first it would given to middleware than after that request move to routes and response 
+// Whenever server accept the request , from their to reaching to the route , if we stop the request in mid and we do something , then this element is known as Middleware
+// for example : we send a request to youtube to download a video then using the middleware we can print hello in mid of request then request can be pass on to the route and response will be generated in terms of downloading video 
