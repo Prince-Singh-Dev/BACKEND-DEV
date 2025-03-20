@@ -15,7 +15,7 @@ var newarr = arr.map(function(val){
 
 console.log(newarr);
 
-//filter functon for array : filter out the element from array using conditions
+//filter functon for array : filter out the element from array using condition/s
 
 //Printing all the elements that are greater than 3
 
