@@ -14,7 +14,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({Extended : true}));
-// app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'public')));
 app.set('view engine','ejs');
 
 app.get("/",function(req,res){
@@ -24,3 +24,5 @@ app.get("/",function(req,res){
 app.listen(3000,function(){
     console.log("I love Shivangi Joshi");
 })
+
+//Now From Dynamic Routing I have to start ...
