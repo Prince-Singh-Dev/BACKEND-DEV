@@ -1,0 +1,19 @@
+AUTHENTICATION AND AUTHORIZATION
+
+AUTHENTICATION : Before giving profile to an user , we should check who is the user 
+AUTHORIZATION  : Checking the rights of the user on the basis of Authentication and then allowing or disallowing the user to perform some task on the basis of rights they have 
+
+
+there is a server machine and there is a chrome browser , using browser we sent a command to the server to load my profile page .. thus server responds by asking about the id and password for Authentication .... Now , I give my details to the server and thus got validate through the server ... Now after validation the server responds in form of giving my profile page and after some time if you again gave a command of liking anyone's post then server will again ask you for the Authentication ..
+
+Thus ... Server forgets everytime who you are ... So , if server forgets everytime who you are ,then it will ask you for the Authentication again and again 
+
+Now , to remove these problems , issues and bugs .... we introduced COOKIES concept 
+
+COOKIES : While the authentication , server will create a string that will be sent to our browser and that string would be saved in browser ... and after the authentication if you give any command to the server , then the command will go with that attached string which will be checked everytime by the server and thus string will be matched , though server will not ask any authentication furthur for any task ..
+
+We have to understand some things while going thorugh this Lecture ..
+
+1. How to set Cookies
+2. How to use Bcrypt for password encryption and decryption 
+3. what is JWT and how to store data in JWT and who to fetch data through it  
