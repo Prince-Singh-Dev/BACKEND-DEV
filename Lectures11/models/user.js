@@ -11,4 +11,4 @@ const userSchema = mongoose.Schema({
     age : Number
 });
 
-module.exports = mongoose.model("user",userSchena);
+module.exports = mongoose.model("user",userSchema);
