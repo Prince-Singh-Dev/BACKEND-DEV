@@ -36,11 +36,11 @@ app.post('/create', (req,res)=>{   //Creating user with Hashed Password and logg
     })
 });
 
-app.get("/login",function(req,res){
+app.get("/login",function(req,res){ //Loading Login page
     res.render('login');
 })
 
-app.post("/login", async function(req,res){
+app.post("/login", async function(req,res){   //Setting up how to login 
    let user = await userModel.findOne({email : req.body.email});
    if(!user) return res,send("something went wrong");
 
@@ -54,7 +54,7 @@ app.post("/login", async function(req,res){
    })
 });
 
-app.get("/logout",function(req,res){
+app.get("/logout",function(req,res){ //Setting the LogOut Page 
     res.cookie("token","");
     res.redirect("/");
 })
