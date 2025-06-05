@@ -1,0 +1,3 @@
+Multer NPM : Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files. It is written on top of busboy for maximum efficiency.
+
+It is basically used to perform task like : we send photos and videos over whatsapp and facebook , the same functonality is performed by Multer
