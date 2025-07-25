@@ -2,7 +2,7 @@
 
 Welcome to the Backend-Dev repository — a complete resource for mastering the MERN stack backend, combining essential concepts, real-world practices, and hands-on implementations.
 
-This repo is ideal for developers who want to build scalable, secure, and high-performance web applications using MongoDB, Express.js, Node.js, and support for React.js on the frontend.
+This repo is ideal for developers who want to build scalable, secure, and high-performance web applications using MongoDB, Express.js, Node.js, and support for React.js on the frontend
 
 # 📚 What's Inside
 This repository covers the entire backend landscape of the MERN stack, including:
